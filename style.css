@@ -11,9 +11,50 @@ margin-right: auto;
 width: 1002px;
 }
 
-img.leftad {
+img.centerimg {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.navbar {
+font-family: Helvetica;
+font-size: 1em;
+list-style-type: none;
+display: inline-block;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+div.navbar {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+li.navbar {
+color: #fff;
+}
+
+div.leftcolumn {
 float: left;
+margin-bottom: 60px;
 width: 20%;
+}
+
+div.rightcolumn {
+float: right;
+margin-bottom: 60px;
+width: 20%;
+}
+
+div.ad {
+margin-top: 30%;
+margin-bottom: 30%;
+}
+
+img.leftad {
+width: 100%;
 
 }
 
@@ -37,13 +78,18 @@ padding: 1.5rem;
 }
 
 h1.mainheader {
+	font-family: Helvetica;
 	color: white;
 	text-align: center;
+	font-size: 2em;
 	margin: 0;
 	padding: 0;
 }
 
 p.body {
+	text-indent: 50px;
+	font-family: Helvetica;
+	font-size: 1.5em;
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
