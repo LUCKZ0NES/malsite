@@ -13,7 +13,7 @@ width: 1002px;
 
 img.leftad {
 float: left;
-width: 300px;
+width: 20%;
 
 }
 
@@ -23,7 +23,7 @@ position: relative;
 padding: 0.2rem;
 margin-left: auto;
 margin-right:auto;
-width: 60%;
+width: 58%;
 }
 
 div.bodycenter {
@@ -34,6 +34,8 @@ padding: 1.5rem;
 h1.mainheader {
 	color: white;
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 p.body {
