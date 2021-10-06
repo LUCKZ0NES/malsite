@@ -17,6 +17,11 @@ width: 20%;
 
 }
 
+img.rightad {
+float: right;
+width: 20%;
+}
+
 div.body {
 background: linear-gradient(to bottom, indigo, navy);
 position: relative;
