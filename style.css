@@ -8,6 +8,14 @@ margin: 0;
   box-sizing: border-box;
 }
 
+a {
+color: #F8F8F2;
+}
+
+a:hover {
+color: #00ff00;
+}
+
 img.title {
 display: block;
 margin-left: auto;
@@ -31,8 +39,11 @@ margin: 0;
 padding: 1em;
 }
 
-img.mainheader {
-width: 5vw;
+div.secondaryheader h2 {
+color: white;
+vertical-align: text-top;
+font-family: Helvetica;
+font-size: 60px;
 }
 
 img.centerimg {
@@ -105,9 +116,9 @@ padding: 1.5rem;
 }
 
 p.body {
-	text-indent: 50px;
+	text-indent: 40px;
 	font-family: Helvetica;
-	font-size: 20px;
+	font-size: 40px;
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
